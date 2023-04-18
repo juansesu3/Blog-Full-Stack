@@ -1,22 +1,17 @@
 * {
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;  
 }
 
 $lightGreen: #b9e7e7;
 
 .app {
-    display: flex;
-    justify-content: center;
-
     .container {
-        width: 1024px;
-
+        wi
         .link {
             text-decoration: none;
             color: inherit;
         }
-
         //LOGIN & REGISTER
         .auth {
             display: flex;
@@ -25,13 +20,11 @@ $lightGreen: #b9e7e7;
             justify-content: center;
             height: 100vh;
             background-color: $lightGreen;
-
             h1 {
                 font-size: 20px;
                 color: teal;
                 margin-bottom: 20px;
             }
-
             form {
                 display: flex;
                 flex-direction: column;
@@ -40,13 +33,11 @@ $lightGreen: #b9e7e7;
                 width: 250px;
                 gap: 20px;
                 border-radius: 10px;
-
                 input {
                     padding: 10px;
                     border: none;
                     border-bottom: 1px solid gray;
                 }
-
                 button {
                     padding: 10px;
                     border: none;
@@ -54,67 +45,29 @@ $lightGreen: #b9e7e7;
                     color: white;
                     cursor: pointer;
                 }
-
                 p {
                     font-size: 12px;
                     color: red;
                     text-align: center;
                 }
-
                 span {
                     font-size: 12px;
                     text-align: center;
                 }
             }
         }
-
         //NAVBAR
         .navbar {
             .container {
                 padding: 10px 0px;
                 display: flex;
-                align-items: center;
                 justify-content: space-between;
 
-                .logo {
-                    img {
-                        width: 120px;
-                    }
-                }
+                .logo {}
 
                 .links {
                     display: flex;
-                    align-items: center;
                     gap: 10px;
-
-                    h6 {
-                        font-size: 16px;
-                        font-weight: 300;
-                    }
-
-                    span {
-                        cursor: pointer;
-                    }
-
-                    .write {
-                        background-color: $lightGreen;
-                        width: 50px;
-                        height: 50px;
-                        border-radius: 50%;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        font-weight: 300;
-                        border: 1px solid white;
-
-                        &:hover {
-                            background-color: white;
-                            color: teal;
-                            border: 1px solid teal;
-
-                        }
-
-                    }
 
                 }
             }

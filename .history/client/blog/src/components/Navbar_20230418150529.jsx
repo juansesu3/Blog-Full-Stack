@@ -29,11 +29,7 @@ const Navbar = () => {
           <Link className='link' to="/?cat=food">
             <h6>FOOD</h6>
           </Link>
-          <span>Juan</span>
-          <span >Logout</span>
-          <span className='write'>
-            <Link className='link' to="/write">Write</Link>
-          </span>
+          <span></span>
           </div>
       </div>
 

@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
           <span>Juan</span>
           <span >Logout</span>
-          <span className='write'>
+          <span className='link'>
             <Link className='link' to="/write">Write</Link>
           </span>
           </div>
