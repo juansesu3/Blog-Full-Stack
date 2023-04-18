@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+$light
+.app{
+    .container{
+        //LOGIN & REGISTER
+        .auth{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+    }
+}
