@@ -290,11 +290,9 @@ $lightGreen: #b9e7e7;
                         height: 200px;
                         object-fit: cover;
                     }
-
                     h2 {
                         color: #555;
                     }
-
                     button {
                         width: max-content;
                         padding: 10px 20px;
@@ -303,7 +301,6 @@ $lightGreen: #b9e7e7;
                         background-color: white;
                         border: 1px solid $lightGreen;
                         color: teal;
-
                         &:hover {
                             border: 1px solid white;
                             background-color: $lightGreen;
@@ -313,8 +310,6 @@ $lightGreen: #b9e7e7;
                 }
             }
         }
-
-    //WRITE
 
     }
 }

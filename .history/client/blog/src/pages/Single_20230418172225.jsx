@@ -2,7 +2,6 @@ import React from 'react'
 import Edit from '../img/edit.png'
 import Delete from '../img/delete.png'
 import { Link } from 'react-router-dom'
-import Menu from '../components/Menu'
 
 const Single = () => {
   return (
@@ -74,7 +73,7 @@ const Single = () => {
           ab vel perspiciatis corporis!
         </p>
       </div>
-     <Menu />
+      <div className='menu'>m</div>
     </div>
   )
 }

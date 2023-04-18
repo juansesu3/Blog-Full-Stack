@@ -74,7 +74,7 @@ const Single = () => {
           ab vel perspiciatis corporis!
         </p>
       </div>
-     <Menu />
+     <Menu/>
     </div>
   )
 }
