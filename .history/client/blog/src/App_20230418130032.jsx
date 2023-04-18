@@ -11,6 +11,7 @@ import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 
+
 const Layout = () => {
 
   return(
@@ -22,6 +23,7 @@ const Layout = () => {
   )
 }
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -32,13 +34,14 @@ const router = createBrowserRouter([
         element:<Home/>
       },
       {
-        path:"/post/:id",
+        path:"/Single",
         element:<Single/>
       },
       {
         path:"/write",
         element:<Write/>
       }
+
     ]
   },
   {
@@ -48,19 +51,24 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
-  } 
+  },
+  {
+    path: "/post&>",
+    element: <Single />,
+  },
+  {
+    path: "/write",
+    element: <Write />,
+  },
 ]);
 
 function App() {
   return (
-    <div className="app">
-      <div className="container">
+    <div >
       <RouterProvider router={router} />
-      </div>
     </div>
   )
 }
-
 
 
 export default App

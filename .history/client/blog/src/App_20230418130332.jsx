@@ -11,6 +11,7 @@ import Home from "./pages/Home"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 
+
 const Layout = () => {
 
   return(
@@ -21,6 +22,7 @@ const Layout = () => {
     </>
   )
 }
+
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,7 @@ const router = createBrowserRouter([
         path:"/write",
         element:<Write/>
       }
+
     ]
   },
   {
@@ -53,14 +56,11 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="app">
-      <div className="container">
+    <div >
       <RouterProvider router={router} />
-      </div>
     </div>
   )
 }
-
 
 
 export default App
