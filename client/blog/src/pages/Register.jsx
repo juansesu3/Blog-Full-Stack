@@ -13,10 +13,10 @@ const Register = () => {
     setInputs(prev=>({...prev, [e.target.name]: e.target.value}))
 
   };
-  console.log(inputs);
+  //console.log(inputs);
 
 
-  const handleSubmit = async e =>{
+  const handleSubmit = async (e) =>{
     e.preventDefault()
     try{
       const res = await axios.post("/auth/register", inputs)
